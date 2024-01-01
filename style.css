@@ -335,7 +335,7 @@ section {
 
 .article-container {
   display: flex;
-  text-align: center;
+  text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -345,12 +345,14 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
   gap: 0.5rem;
+  align-items: center;
 }
 
 article .icon {
   cursor: default;
+  margin-right: 10px;
+  align-items: center;
 }
 
 /* Projects */
