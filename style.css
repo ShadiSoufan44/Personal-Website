@@ -305,7 +305,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 60%;
 }
 
 .section_pic-container {
@@ -321,7 +321,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -380,6 +380,7 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  cursor: pointer;
 }
 
 /* CONTACT */
@@ -431,4 +432,8 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+#ShadiImage {
+  border-radius: 2rem;
 }
